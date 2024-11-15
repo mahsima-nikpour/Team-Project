@@ -1,0 +1,38 @@
+{% load templatetags %}
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+<head>
+    <!-- TITLE-->
+    <title>قالب شرکتی تک صفحه ای | نت کپی</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive one page HTML template">
+    <meta name="author" content="Netcopy">
+
+    <!-- Latest IE rendering engine & Chrome Frame Meta Tags -->
+    <!--[if IE]>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    <![endif]-->
+    {% include 'shared/_head_references.html' %}
+</head>
+<body data-spy="scroll" data-offset="62">
+{% site_header %}
+{% block content %}{% endblock %}
+<!-- Page Loader -->
+<div class="page-loader"></div>
+
+<div class="main-wrap">
+
+
+
+
+
+
+</div><!-- .main-wrap -->
+
+{% site_footer %}
+{% include 'shared/_footer_references.html' %}
+</body>
+</html>
+
